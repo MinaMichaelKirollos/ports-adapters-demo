@@ -6,4 +6,4 @@ from abc import ABC, abstractmethod
 class PrintAdapterPort(ABC):
     @abstractmethod
     def print_number(self, number: int):
-        pass
+        return
